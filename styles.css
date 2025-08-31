@@ -150,3 +150,18 @@ body {
   text-align: center;
   padding: 10px 0;
 }
+
+.description {
+  margin: 10px 0 20px;
+  padding: 12px;
+  border-left: 4px solid var(--accent);
+  background: #111521;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.description strong {
+  color: var(--accent-light);
+}
